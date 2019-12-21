@@ -15,10 +15,10 @@
     @include('admin/navbar')
     <div class="container" id="DashboardContainer">
         <div class="row">
-            <div class="col-sm-3">New Orders</div>
-            <div class="col-sm-3">New Orders</div>
-            <div class="col-sm-3">New Orders</div>
-            <div class="col-sm-3">New Orders</div>
+            <div class="col-sm-3" id="NewBills">Hóa đơn mới</div>
+            <div class="col-sm-3" id="Products">Sách</div>
+            <div class="col-sm-3">Người dùng đăng kí</div>
+            <div class="col-sm-3">Doanh thu</div>
         </div>
     </div>
 </body>
