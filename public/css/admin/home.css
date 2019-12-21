@@ -6,3 +6,44 @@ body {
 #DashboardContainer {
     margin-top: 100px;
 }
+
+#DashboardContainer #NewBills,
+#DashboardContainer #Products,
+#DashboardContainer #UserRegistrations,
+#DashboardContainer #Revenue {
+    padding: 10px 20px;
+}
+#DashboardContainer #NewBills #dashboard,
+#DashboardContainer #Products #dashboard,
+#DashboardContainer #UserRegistrations #dashboard,
+#DashboardContainer #Revenue #dashboard {
+    background-color: #ff9100;
+    color: #ffffff;
+    position: relative;
+    height: 100px;
+}
+#DashboardContainer #NewBills #dashboard #amount,
+#DashboardContainer #Products #dashboard #amount,
+#DashboardContainer #UserRegistrations #dashboard #amount,
+#DashboardContainer #Revenue #dashboard #amount {
+    font-size: 25px;
+    font-weight: bold;
+}
+#DashboardContainer #NewBills #dashboard #name,
+#DashboardContainer #Products #dashboard #name,
+#DashboardContainer #UserRegistrations #dashboard #name,
+#DashboardContainer #Revenue #dashboard #name {
+    font-size: 15px;
+}
+#DashboardContainer #NewBills #dashboard a,
+#DashboardContainer #Products #dashboard a,
+#DashboardContainer #UserRegistrations #dashboard a,
+#DashboardContainer #Revenue #dashboard a {
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #ffffff;
+    text-align: right;
+    background-color: #00000085;
+}

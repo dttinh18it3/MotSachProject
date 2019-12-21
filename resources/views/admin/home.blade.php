@@ -15,10 +15,34 @@
     @include('admin/navbar')
     <div class="container" id="DashboardContainer">
         <div class="row">
-            <div class="col-sm-3" id="NewBills">Hóa đơn mới</div>
-            <div class="col-sm-3" id="Products">Sách</div>
-            <div class="col-sm-3">Người dùng đăng kí</div>
-            <div class="col-sm-3">Doanh thu</div>
+            <div class="col-sm-3 col-6" id="NewBills">
+                <div id="dashboard">
+                    <p id="amount">//Số lượng//</p>
+                    <p id="name">Đơn hàng mới</p>
+                    <a href="#">Xem thêm <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-3 col-6" id="Products">
+                <div id="dashboard">
+                    <p id="amount">//Số lượng//</p>
+                    <p id="name">Sách</p>
+                    <a href="#">Xem thêm <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-3 col-6" id="UserRegistrations">
+                <div id="dashboard">
+                    <p id="amount">//Số lượng//</p>
+                    <p id="name">Người dùng đăng kí</p>
+                    <a href="#">Xem thêm <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-3 col-6" id="Revenue">
+                <div id="dashboard">
+                    <p id="amount">//Số lượng//</p>
+                    <p id="name">Doanh thu</p>
+                    <a href="#">Xem thêm <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
