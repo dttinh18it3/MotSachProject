@@ -1,0 +1,10 @@
+#PortfolioContainer {
+    margin-top: 100px;
+}
+
+#PortfolioContainer #DisplayPortfolio {
+    background-color: #00ffff;
+}
+#PortfolioContainer #FunctionPortfolio {
+    background-color: #ffcc5f;
+}
