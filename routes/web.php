@@ -13,10 +13,14 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
-Route::get('admin', function() {
-    return view('admin/home');
-});
-Route::get('portfolio', function() {
-    return view('admin/portfolio');
-});
+})->name('welcome');
+
+Route::get('admin', [
+    'as' => 'admin-home',
+    'uses' => 'HomeController@getHomePage'
+]);
+
+Route::get('portfolio', [
+    'as' => 'admin-portfolio',
+    'uses' => 'PortfolioController@getPortfolio'
+]);

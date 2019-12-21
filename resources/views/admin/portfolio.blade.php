@@ -15,7 +15,19 @@
     @include('admin/navbar')
     <div class="container" id="PortfolioContainer">
         <div class="row">
-            <div class="col-sm-5" id="DisplayPortfolio">Hiển thị danh sách danh mục</div>
+            <!-- Hiển thị danh sách danh mục đang sử dụng -->
+            <div class="col-sm-5" id="DisplayPortfolio">
+                <div class="row">
+                    <div class="col-sm-12" id="titleBox">
+                        <span>Danh sách danh mục</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12" id="dataBox">
+                        data
+                    </div>
+                </div>
+            </div>
             <div class="col-sm-7" id="FunctionPortfolio">Chức năng thao tác với danh mục</div>
         </div>
     </div>
