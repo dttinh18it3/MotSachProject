@@ -3,8 +3,16 @@
 }
 
 #PortfolioContainer #DisplayPortfolio {
-    background-color: #00ffff;
+
 }
 #PortfolioContainer #FunctionPortfolio {
     background-color: #ffcc5f;
+}
+
+#DisplayPortfolio #titleBox {
+    background-color: #115353;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px 10px;
 }
