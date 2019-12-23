@@ -17,10 +17,10 @@ Route::get('/', function () {
 
 Route::get('admin', [
     'as' => 'admin-home',
-    'uses' => 'HomeController@getHomePage'
+    'uses' => 'MyController@getHomePage'
 ]);
 
 Route::get('portfolio', [
     'as' => 'admin-portfolio',
-    'uses' => 'PortfolioController@getPortfolio'
+    'uses' => 'MyController@getPortfolioPage'
 ]);
