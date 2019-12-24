@@ -3,20 +3,22 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Portfolio;
 
 class MyController extends Controller
 {
+    // gọi trang chủ
     public function getHomePage() {
         return view('admin/home');
     }
-    
+    // gọi trang danh mục
     public function getPortfolioPage() {
-        return view('admin/portfolio');
+        $portfolios = Portfolio::all();
+        return view('admin/portfolio', compact('portfolios'));
     }
-
-    public function selectPortfolio() {
-        $portfolio = DB::select('SELECT * FROM tblportfolio');
-        
+    
+    public function AddPortfolio() {
+        return view('admin/addPortfolio');
     }
 
 }

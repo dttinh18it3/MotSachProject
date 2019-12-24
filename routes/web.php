@@ -24,3 +24,13 @@ Route::get('portfolio', [
     'as' => 'admin-portfolio',
     'uses' => 'MyController@getPortfolioPage'
 ]);
+
+// Route::post('portfolio/add-portfolio', [
+//     'as' => 'admin-add-portfolio',
+//     'uses' => 'MyController@AddPortfolio'
+// ]);
+Route::get('portfolio/add-portfolio', [
+    'as' => 'admin-add-portfolio',
+    'uses' => 'MyController@AddPortfolio',
+
+]);
